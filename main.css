@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(img/violet.jpg)
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.violet{
+    max-height: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li{
+    color: blue;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a :hover{
+    color: blueviolet;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a :hover{
+    color: yellow;
+}
+nav ul li a :hover{
+    width: 100%;
+}
+.btn{
+    color: antiquewhite;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 400px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 132% 100%;
+    background: red;
+    border: 2px solid red;
+}
+.btn:hover{
+    background: transparent;
+    color: blueviolet;
+    border-color: aqua;
+    }
+    
